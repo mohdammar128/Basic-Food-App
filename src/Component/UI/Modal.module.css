@@ -1,0 +1,25 @@
+.modal {
+  position: fixed;
+  width: 35rem;
+  height: 25rem;
+  top: 10rem;
+  left: 30rem;
+  background-color: aliceblue;
+  z-index: 4;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.26);
+  border-radius: 10px;
+}
+.modal_content {
+  display: flex;
+  flex-direction: column;
+}
+.backdrop {
+  width: 100%;
+  height: 100%;
+  background-color: #0d0c0cc3;
+  position: fixed;
+  z-index: 3;
+  padding: 0px;
+  margin: 0px;
+  pointer-events: none;
+}

@@ -1,0 +1,32 @@
+.cart-button {
+  border-radius: 10px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin-right: 80px;
+  font-family: sans-serif;
+  background-color: rgba(165, 42, 42, 0.596);
+}
+
+.cart-button_label {
+  padding: 5px;
+  color: white;
+  font-weight: bolder;
+  font-size: 18px;
+}
+
+.cart-button_icon {
+  padding: 5px;
+  color: white;
+  font-size: large;
+}
+
+.cart-button_count {
+  margin-right: 5px;
+  padding: 5px;
+  border: 0px solid black;
+  border-radius: 50px;
+  background-color: brown;
+}
